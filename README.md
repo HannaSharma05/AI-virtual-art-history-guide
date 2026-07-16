@@ -14,6 +14,12 @@ The AI Virtual Art History Guide is a full-stack conversational chatbot designed
 🎨 Daily Masterpiece	Each day features a new artwork with image, title, artist, and period—a mini art calendar built in.
 
 
+🌓 Mood‑Based Theming	Choose from Serene, Scholarly, Vibrant, or Classic themes—each changes the entire visual mood
+
+🌙 Dark Mode	Toggle between light and dark themes for comfortable viewing anytime
+
+
+
 🛠️ Tech Stack
 
 Frontend
@@ -28,8 +34,16 @@ Font Awesome – Iconography
 
 Web Speech API – Voice recognition
 
-🌓 Mood‑Based Theming	Choose from Serene, Scholarly, Vibrant, or Classic themes—each changes the entire visual mood
 
-🌙 Dark Mode	Toggle between light and dark themes for comfortable viewing anytime
+Backend
+Python 3.8+ – Core language
+
+Flask – Web framework
+
+Flask‑CORS – Cross‑origin resource sharing
+
+Google Generative AI (Gemini 1.5 Pro) – AI model
+
+python‑dotenv – Environment variable managemen
 
 The chatbot also maintains conversation history on the client side using DOM-based data binding and localStorage, allowing users to revisit previous interactions even after refreshing the page.
