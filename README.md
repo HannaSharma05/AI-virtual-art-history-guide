@@ -1,6 +1,5 @@
 The AI Virtual Art History Guide is a full-stack conversational chatbot designed to make learning art history more interactive and accessible. The idea was to create a virtual guide that can answer users' questions about artists, paintings, art movements, historical periods, and artistic techniques using natural language.
 
-The application is built using Flask as the backend framework, while HTML, CSS, and JavaScript were used to develop the frontend interface. The chatbot uses Google Gemini 1.5 Pro as its Large Language Model to generate contextual responses.
 
 🚀 Key Features
 
@@ -12,7 +11,22 @@ The application is built using Flask as the backend framework, while HTML, CSS, 
 
 💾 Conversation Memory	Chat history persists in local storage, so you never lose context even after refreshing the page
 
-🎨 Daily Masterpiece	Each day features a new artwork with image, title, artist, and period—a mini art calendar built in
+🎨 Daily Masterpiece	Each day features a new artwork with image, title, artist, and period—a mini art calendar built in.
+
+
+🛠️ Tech Stack
+
+Frontend
+
+HTML5 – Semantic structure
+
+CSS3 – Custom properties, Grid/Flexbox, transitions
+
+Vanilla JavaScript (ES6+) – Lightweight, no frameworks
+
+Font Awesome – Iconography
+
+Web Speech API – Voice recognition
 
 🌓 Mood‑Based Theming	Choose from Serene, Scholarly, Vibrant, or Classic themes—each changes the entire visual mood
 
