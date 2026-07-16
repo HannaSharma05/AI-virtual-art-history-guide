@@ -36,6 +36,7 @@ Web Speech API – Voice recognition
 
 
 Backend
+
 Python 3.8+ – Core language
 
 Flask – Web framework
